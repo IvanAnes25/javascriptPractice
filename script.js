@@ -17,23 +17,25 @@
 //     : 'Excellent!';
 // console.log(message);
 
-const playerGuess = 8;
-const correctAnswer = 6;
+// const playerGuess = 8;
+// const correctAnswer = 6;
 
-/*
-Challenge 
-1. Refactor the if else statement to use a ternary operator.
-*/
+// /*
+// Challenge 
+// 1. Refactor the if else statement to use a ternary operator.
+// */
 
-// let message = ''
-// if (playerGuess === correctAnswer) {
-//     message = 'Correct!'
-// }
-// else {
-//     message = 'Wrong!'
-// }
+// // let message = ''
+// // if (playerGuess === correctAnswer) {
+// //     message = 'Correct!'
+// // }
+// // else {
+// //     message = 'Wrong!'
+// // }
 
-// console.log(message)
+// // console.log(message)
 
-const message = playerGuess > correctAnswer ? 'too high' : playerGuess < correctAnswer ? 'too low' : 'Correct';
-console.log(message);
+// const message = playerGuess > correctAnswer ? 'too high' 
+//     : playerGuess < correctAnswer ? 'too low' 
+//     : 'Correct';
+// console.log(message);
