@@ -66,3 +66,19 @@
 // }
 // console.log(select('lemon cake'));
 
+//OBJECT DESTRUCTURING
+
+// const Subject = {
+//     BAT402: "FAM",
+//     IT313: "SAD",
+//     IT312: "SIA",
+//     IT314: "WEB",
+//     Ged107: "ETHICS" 
+// }
+
+// const {
+//      BAT402, IT313, IT312,IT314,Ged107
+// } = Subject
+
+// console.log(`My favorite subject is ${IT314}`);
+
